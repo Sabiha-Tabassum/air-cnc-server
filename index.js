@@ -25,7 +25,7 @@ async function run() {
   try {
 
     // Connect the client to the server	(optional starting in v4.7)
-    await client.connect();
+    // await client.connect();
 
     const usersCollection = client.db('aircncDB').collection('users')
     const roomsCollection = client.db('aircncDB').collection('rooms')
